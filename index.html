@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .gallery div {
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Art Portfolio</h1>
+    <p>Welcome to my collection of artwork.</p>
+    <div class="gallery">
+        <div>
+            <img src="image1.jpg" alt="Artwork 1">
+            <p>Title: Artwork 1</p>
+        </div>
+        <div>
+            <img src="image2.jpg" alt="Artwork 2">
+            <p>Title: Artwork 2</p>
+        </div>
+        <div>
+            <img src="image3.jpg" alt="Artwork 3">
+            <p>Title: Artwork 3</p>
+        </div>
+        <!-- 더 많은 작품을 추가할 수 있습니다 -->
+    </div>
+</body>
+</html>
